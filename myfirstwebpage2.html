@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head><title>My first project</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style> 
-h1 { color: brown;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: xx-large;} 
+body{background-color: #0f0f00;}
+h1 { color:#0f0f00;
+    font-family:Lobster;
+    font-size:5cm;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    } 
 .smaller-image {width: max-content;}
-.black-background {background-color:black;}   
+.black-background {background-color:#f8950070;
+text-align: center;
+padding: 10% 20% 10% 20%;}   
 #silver-color { color: blanchedalmond;} 
+.body-place {padding: 100px 200px 1000px 200px;
+             margin: auto;
+             }
+.top-body {
+  background-color: #ff9900;
+  padding:3cm 2cm 3cm 2cm
+  margin: auto;}
 </style>
 
 </head>
   <main>
     <body>
-    <h1>GymApp</h1><br>
+  <div class="body-place">
+    <div class="top-body"><h1>GymApp</h1></div>
     <div class="black-background"><p id="silver-color">View more apps on <a href="https://www.google.com/" target="_balnk">Google.com</a></p>
     <a href="#"><img class="smaller-image" src="images/gym logo.jpg"></a>
     <ul>
@@ -41,6 +56,7 @@ h1 { color: brown;
     <input type="text" placeholder="Other relavent information"><br>
     <button type="submit">Submit</button>
    </form>
+  </div>
     </body>
 
   </main>
